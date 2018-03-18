@@ -2,7 +2,6 @@
 
 echo -e "Deploying updates to GitHub..."
 
-rm -rf public
 # Build the project.
 hugo -t casper # if using a theme, replace with `hugo -t <YOURTHEME>`
 
